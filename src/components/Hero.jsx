@@ -1,3 +1,5 @@
+import logo from "../assets/logo.png";
+
 export default function Hero() {
   return (
     <section className="hero">
@@ -6,7 +8,7 @@ export default function Hero() {
       <div className="hero-content">
 
         <img
-          src="/logo.png"
+          src={logo}
           alt="Street Rats"
           className="hero-logo"
         />

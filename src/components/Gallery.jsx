@@ -3,15 +3,15 @@ import { useEffect, useState } from "react";
 export default function Gallery() {
   const images = [
     {
-      src: "/gallery/blacksquare.png",
+      src: `${import.meta.env.BASE_URL}gallery/blacksquare.png`,
       alt: "Black Square",
     },
     {
-      src: "/gallery/mona-sausage.png",
+      src: `${import.meta.env.BASE_URL}gallery/mona-sausage.png`,
       alt: "Mona Sausage",
     },
     {
-      src: "/gallery/son-of-sausage.png",
+      src: `${import.meta.env.BASE_URL}gallery/son-of-sausage.png`,
       alt: "The Son of Sausage",
     },
   ];
@@ -79,7 +79,10 @@ export default function Gallery() {
               key={image.src}
               onClick={() => setSelectedImage(index)}
             >
-              <img src={image.src} alt={image.alt} />
+              <img
+                src={image.src}
+                alt={image.alt}
+              />
             </div>
           ))}
         </div>

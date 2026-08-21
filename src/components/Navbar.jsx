@@ -1,10 +1,12 @@
+import ratLogo from "../assets/R.png";
+
 export default function Navbar() {
   return (
     <header className="navbar">
 
       <a href="#" className="nav-logo">
         <img
-          src="/R.png"
+          src={ratLogo}
           alt="Street Rats"
           className="nav-logo-image"
         />

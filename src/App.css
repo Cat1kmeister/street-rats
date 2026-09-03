@@ -903,3 +903,10 @@ header::after {
   font-size: 14px;
   letter-spacing: 2px;
 }
+@media (max-width: 768px) {
+  .hero {
+    background:
+      linear-gradient(rgba(8,6,4,.35), rgba(8,6,4,.55)),
+      url("/street-rats-background.png") 28% center / cover no-repeat;
+  }
+}

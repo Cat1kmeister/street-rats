@@ -903,7 +903,7 @@ header::after {
   font-size: 14px;
   letter-spacing: 2px;
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .hero {
     background:
       linear-gradient(rgba(8,6,4,.35), rgba(8,6,4,.55)),

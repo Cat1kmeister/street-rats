@@ -907,6 +907,6 @@ header::after {
   .hero {
     background:
       linear-gradient(rgba(8,6,4,.35), rgba(8,6,4,.55)),
-      url("/street-rats-background.png") 55% center / cover no-repeat;
+      url("/street-rats-background.png") 80% center / cover no-repeat;
   }
 }

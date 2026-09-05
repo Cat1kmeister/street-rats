@@ -905,7 +905,6 @@ header::after {
 }
 @media (max-width: 769px) {
   .hero {
-    overflow: hidden;
     background:
       linear-gradient(rgba(8,6,4,.35), rgba(8,6,4,.55)),
       url("/street-rats-background.png") 65% center / auto 100% no-repeat !important;

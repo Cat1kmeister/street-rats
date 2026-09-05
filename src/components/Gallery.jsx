@@ -3,16 +3,16 @@ import { useEffect, useState } from "react";
 export default function Gallery() {
   const images = [
     {
-      src: `${import.meta.env.BASE_URL}gallery/blacksquare.png`,
-      alt: "Black Square",
+      src: `${import.meta.env.BASE_URL}gallery/screen1.png`,
+      alt: "Street Rats gameplay",
     },
     {
-      src: `${import.meta.env.BASE_URL}gallery/mona-sausage.png`,
-      alt: "Mona Sausage",
+      src: `${import.meta.env.BASE_URL}gallery/screen2.png`,
+      alt: "Street Rats gameplay",
     },
     {
-      src: `${import.meta.env.BASE_URL}gallery/son-of-sausage.png`,
-      alt: "The Son of Sausage",
+      src: `${import.meta.env.BASE_URL}gallery/screen3.png`,
+      alt: "Street Rats gameplay",
     },
   ];
 
